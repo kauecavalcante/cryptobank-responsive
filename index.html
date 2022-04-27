@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kauecel</title>
+    <!---- iCONES ------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!---- LINK CSS ----->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="header">
+
+    <!----- LOGO ------->
+    <a href="#" class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
+        <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
+        <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
+        <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
+      </svg>
+    </a>
+
+    <!----- BUSCA ------->
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="Procure aqui..." id="searchBox">
+        <label for="searchBox" class="fas fa-search"></label>
+    </form>
+
+     <!---- ICONES ------>
+     <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-moon" id="theme-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <!------ MENU ------>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#services">Serviços</a>
+        <a href="#pricing">Preços</a>
+        <a href="#review">Avaliações</a>
+        <a href="#contact">Contato</a>
+        <a href="#blogs">Blogs</a>
+    </nav>
+
+    <!---- CADASTRO ----->
+    <form action="" class="login-form">
+
+        <div class="inputBox">
+            <span>Nome do usuário</span>
+            <input type="text" placeholder="Digite seu nome">
+        </div>
+
+        <div class="inputBox">
+            <span>Senha</span>
+            <input type="password" placeholder="Digite sua senha">
+        </div>
+
+        <div class="remember">
+            <input type="checkbox" name="" id="login-remember">
+            <label for="login-remember">Lembre de mim</label>
+        </div>
+
+        <input type="submit" class="btn" value="login">
+
+    </form>
+</header>
+
+
+
+ <!----- HOME SECTION ----->
+
+  <section class="home" id="home">
+
+    <div id="tt" class="image" data-aos="fade-down">
+        <img src="img/ether.svg" alt="">
+    </div>
+
+    <div class="content" data-aos="fade-up">
+        <h3>A mais nova corretora de crypto do mercado</h3>
+        <p>Quer investir com segurança e liquidez? vem pra melhor corretora de crypto! </p>
+        <a href="#" class="btn">Saiba Mais</a>
+    </div>
+
+ </section>
+
+ <!---- SECTION DE SERVIÇOS ----->
+<section class="services" id="services">
+
+    <h1 class="heading"> Nossos <span>Serviços</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in">
+            <span>01</span>
+            <i class="fas fa-globe"></i>
+            <h3>Saque e deposite de qualquer lugar </h3>
+            <p>você consegue depositar e sacar qualquer valor todos os dias.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <span>02</span>
+            <i class="fas fa-user"></i>
+            <h3>Consultoria</h3>
+            <p>Os melhores analistas do mercado disponiveis para ajudar você com o que precisar.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <span>03</span>
+            <i class="fas fa-hiking"></i>
+            <h3>Video aula</h3>
+            <p>veja nossas videos aulas de qualquer lugar do mundo com ou sem internet.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <span>04</span>
+            <i class="fas fa-globe"></i>
+            <h3>Trade</h3>
+            <p>Temos nosso mais novo dashboard voltado para trade</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <span>05</span>
+            <i class="fas fa-hiking"></i>
+            <h3>Iniciantes</h3>
+            <p>temos um time e um dashboard voltado para quem não entende desse mercado.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <span>06</span>
+            <i class="fas fa-bullhorn"></i>
+            <h3>Segurança</h3>
+            <p>conforte e segurança é so na cryptobank</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!---- SECTION DE PREÇOS ----->
+<section class="pricing" id="pricing">
+
+    <h1 class="heading"> Nossos <span>preços</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in-up">
+            <h3> plano basico </h3>
+            <div class="price">
+                <span>R$</span>
+                <span class="amount">150</span>
+                <span>/mês</span>
+            </div>
+            <ul>
+                <li>Consultoria</li>
+                <li>Suporte Basico</li>
+                <li>Saques Limitados</li>
+                <li>seguro</li>
+            </ul>
+            <a href="#" class="btn">fechar plano</a>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up">
+            <h3> plano padrão </h3>
+            <div class="price">
+                <span>R$</span>
+                <span class="amount">300</span>
+                <span>/mês</span>
+            </div>
+            <ul>
+                <li>Consultoria</li>
+                <li>Suporte Padrão</li>
+                <li>Saques Limitados</li>
+                <li>seguro</li>
+            </ul>
+            <a href="#" class="btn">fechar plano</a>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up">
+            <h3> plano premium </h3>
+            <div class="price">
+                <span>R$</span>
+                <span class="amount">570</span>
+                <span>/mês</span>
+            </div>
+            <ul>
+                <li>Consultoria</li>
+                <li>Suporte Premium</li>
+                <li>Saques Ilimitados</li>
+                <li>seguro</li>
+            </ul>
+            <a href="#" class="btn">fechar plano</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!---- SECTION DE ESTRELAS -->
+<section class="review" id="review">
+
+    <h1 class="heading"> avaliação dos <span>clientes</span> </h1>
+
+    <div class="swiper-container review-slider" data-aos="zoom-in">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <img src="pic-1.png" alt="">
+                <h3>Jean Fabio</h3>
+                <p>Estou no plano basico e estou adorando o suporte e o atendimento que estão me oferecendo, sem contar com a alta liquidez que a cryptobank tem, surreal!!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="pic-2.png" alt="">
+                <h3>Angeline</h3>
+                <p>Amando esse time e esse dashboard para quem é iniciante, sem contar que aprendo bastante com todos do suporte, as aulas estão fazendo a diferença.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="pic-3.png" alt="">
+                <h3>Fabricio</h3>
+                <p>tenho o plano premium e é surreal a rapidez do suporte que a cryptobank tem, em questão de minutos sou atendido.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="pic-4.png" alt="">
+                <h3>Milena</h3>
+                <p>investi ontem de madrugada e meu investimento estava caindo e na mesma hora o meu time de suporte tirou meu dinheiro e ja estava disponivel na conta.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!---- SECTION DE CONTATO ----->
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>Entre em</span> contato </h1>
+
+    <form action="" data-aos="zoom">
+
+        <div class="inputBox">
+            <input type="text" placeholder="Nome" data-aos="fade-up">
+            <input type="email" placeholder="E-mail" data-aos="fade-up">
+        </div>
+
+        <div class="inputBox">
+            <input type="number" placeholder="Numero" data-aos="fade-up">
+            <input type="text" placeholder="Assunto" data-aos="fade-up">
+        </div>
+
+        <textarea name="" placeholder="Sua mensagem" id="" cols="30" rows="10" data-aos="fade-up"></textarea>
+        
+        <input type="submit" value="enviar mensagem" class="btn">
+
+    </form>
+
+</section>
+
+<!---- SECTION BLOG ----->
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> Nosso <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up">
+            <div class="image">
+                <img src="blog1.svg" alt="">
+            </div>
+            <div class="content">
+                <h3>Onde tranfiro minhas moedas</h3>
+                <a href="#" class="btn">Mais informação</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> hoje as 20:00 </a>
+                    <a href="#"> <i class="fas fa-user"></i> por admin </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <div class="image">
+                <img src="blog2.svg" alt="">
+            </div>
+            <div class="content">
+                <h3>tire seu dinheiro da poupança e invista em nos</h3>
+                <a href="#" class="btn">Mais informação</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> hoje as 18:00 </a>
+                    <a href="#"> <i class="fas fa-user"></i> por admin </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <div class="image">
+                <img src="blog3.svg" alt="">
+            </div>
+            <div class="content">
+                <h3>explore o mercado</h3>
+                <a href="#" class="btn">Mais informação</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> em breve </a>
+                    <a href="#"> <i class="fas fa-user"></i> por admin </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!----- SECTION FOOTER ---->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up">
+            <h3>nossas filiais</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Brasil </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Argentina </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Chile </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Mexico </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Uruguai </a>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <h3>Links Rápidos</h3>
+            <a href="#home"> <i class="fas fa-chevron-right"></i> home </a>
+            <a href="#services"> <i class="fas fa-chevron-right"></i> serviços </a>
+            <a href="#pricing"> <i class="fas fa-chevron-right"></i> preços </a>
+            <a href="##review"> <i class="fas fa-chevron-right"></i> avaliações </a>
+            <a href="#contact"> <i class="fas fa-chevron-right"></i> contato </a>
+            <a href="#blogs"> <i class="fas fa-chevron-right"></i> blogs </a>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <h3>contato info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +82-9999-9999 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +83-3333-3333 </a>
+            <a href="#"> <i class="fas fa-envelop"></i> cryptobank@suporte.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Brasil, são paulo - 400104 </a>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <h3>Siga-nos</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> criado por <span>Kauê Cavalcante</span>  </div>
+
+</section>
+
+     <script src="js.js"></script>
+</body>
+</html>
